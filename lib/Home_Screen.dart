@@ -123,7 +123,7 @@ class Home extends StatelessWidget{
                               child: Text(details_Image[index].title, style:TextStyle(
                                 fontSize: 20,
                                   fontStyle: FontStyle.normal,
-                                  fontWeight: FontWeight.w800,
+                                  fontWeight: FontWeight.w500,
                                   color: Colors.white
                               )),
                             ),
@@ -183,7 +183,7 @@ class Home extends StatelessWidget{
                                 child: Text(details_Image[index].title, style:TextStyle(
                                     fontSize: 20,
                                     fontStyle: FontStyle.normal,
-                                    fontWeight: FontWeight.w800,
+                                    fontWeight: FontWeight.w500,
                                     color: Colors.white
                                 )),
                               ),

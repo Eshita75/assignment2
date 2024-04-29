@@ -97,7 +97,7 @@ class DetailScreen extends StatelessWidget{
                               detailsHeading,
                               style: TextStyle(
                                   fontSize: 24,
-                                  fontWeight: FontWeight.w800,
+                                  fontWeight: FontWeight.w500,
                                   color: Colors.black,
                                 fontStyle: FontStyle.normal
                               ),
@@ -108,7 +108,6 @@ class DetailScreen extends StatelessWidget{
                               details,
                               style: TextStyle(
                                   fontSize: 15,
-                                  fontWeight: FontWeight.w400,
                                   color: Colors.black,
                                 fontStyle: FontStyle.normal
                               ),
@@ -119,8 +118,9 @@ class DetailScreen extends StatelessWidget{
 
                       Container(
                         width: double.infinity,
+                        height: 80,
                         child: Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 20),
+                          padding: const EdgeInsets.all(20),
                           child: ElevatedButton(
                               style: ElevatedButton.styleFrom(
                                   backgroundColor: Colors.green,
@@ -132,7 +132,7 @@ class DetailScreen extends StatelessWidget{
                                   )
                               ),
                               onPressed: (){}, child: Text('See More', style: TextStyle(
-                            fontSize: 20, fontWeight: FontWeight.w800, fontStyle: FontStyle.normal
+                            fontSize: 20, fontWeight: FontWeight.w500, fontStyle: FontStyle.normal
                           ),)),
                         ),
                       ),
@@ -151,7 +151,7 @@ class DetailScreen extends StatelessWidget{
                                 'Suggestions',
                                 style: TextStyle(
                                     fontSize: 20,
-                                    fontWeight: FontWeight.w800,
+                                    fontWeight: FontWeight.w500,
                                     color: Colors.green,
                                   fontStyle: FontStyle.normal
                                 ),
@@ -201,7 +201,7 @@ class DetailScreen extends StatelessWidget{
                                     margin: EdgeInsets.only(bottom: 19, left: 23),
                                     child: Text(sugggestios[index].title, style:TextStyle(
                                         fontSize: 20,
-                                        fontWeight: FontWeight.w400,
+                                        fontWeight: FontWeight.w500,
                                         color: Colors.white
                                     )),
                                   ),
@@ -264,7 +264,7 @@ class DetailScreen extends StatelessWidget{
                                   style: TextStyle(
                                     fontSize: 24,
                                     fontStyle: FontStyle.normal,
-                                    fontWeight: FontWeight.w800,
+                                    fontWeight: FontWeight.w500,
                                     color: Colors.black,
                                   ),
                                 ),
@@ -273,7 +273,6 @@ class DetailScreen extends StatelessWidget{
                                   details,
                                   style: TextStyle(
                                     fontSize: 15,
-                                    fontWeight: FontWeight.w400,
                                     fontStyle: FontStyle.normal,
                                     color: Colors.black,
                                   ),
@@ -284,6 +283,7 @@ class DetailScreen extends StatelessWidget{
                           // See More button
                           Container(
                             width: double.infinity,
+                            height: 80,
                             child: ElevatedButton(
                               style: ElevatedButton.styleFrom(
                                 backgroundColor: Colors.green,
@@ -295,7 +295,7 @@ class DetailScreen extends StatelessWidget{
                               ),
                               onPressed: () {},
                               child: Text('See More', style: TextStyle(
-                                fontStyle: FontStyle.normal, fontWeight: FontWeight.w800
+                                fontStyle: FontStyle.normal, fontWeight: FontWeight.w500
                               ),),
                             ),
                           ),
@@ -310,7 +310,7 @@ class DetailScreen extends StatelessWidget{
                                   style: TextStyle(
                                     fontSize: 20,
                                     fontStyle: FontStyle.normal,
-                                    fontWeight: FontWeight.w800,
+                                    fontWeight: FontWeight.w500,
                                     color: Colors.green,
                                   ),
                                 ),
@@ -357,7 +357,7 @@ class DetailScreen extends StatelessWidget{
                                             sugggestios[index].title,
                                             style: TextStyle(
                                               fontSize: 20,
-                                              fontWeight: FontWeight.w400,
+                                              fontWeight: FontWeight.w500,
                                               color: Colors.white,
                                             ),
                                           ),
