@@ -68,7 +68,7 @@ class Home extends StatelessWidget{
         appBar: AppBar(
           //toolbarHeight: 60,
           title: Center(child: Text('Photo Gallery')),
-          backgroundColor: Colors.green,
+          backgroundColor: Color(0xff2CAB00),
           actions: [
             IconButton(onPressed: (){}, icon: Icon(Icons.more_vert))
           ],

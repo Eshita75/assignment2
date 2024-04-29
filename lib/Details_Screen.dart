@@ -40,7 +40,7 @@ class DetailScreen extends StatelessWidget{
     return Scaffold(
       appBar: AppBar(
           title: Center(child: Text(title)),
-          backgroundColor: Colors.green,
+          backgroundColor: Color(0xff2CAB00),
           actions: [
             IconButton(onPressed: (){}, icon: Icon(Icons.more_vert))
           ],
@@ -118,12 +118,12 @@ class DetailScreen extends StatelessWidget{
 
                       Container(
                         width: double.infinity,
-                        height: 80,
+                        height: 90,
                         child: Padding(
                           padding: const EdgeInsets.all(20),
                           child: ElevatedButton(
                               style: ElevatedButton.styleFrom(
-                                  backgroundColor: Colors.green,
+                                  backgroundColor: Color(0xff2CAB00),
                                   foregroundColor: Colors.white,
                                   elevation: 25,
 
@@ -152,7 +152,7 @@ class DetailScreen extends StatelessWidget{
                                 style: TextStyle(
                                     fontSize: 20,
                                     fontWeight: FontWeight.w500,
-                                    color: Colors.green,
+                                    color: Color(0xff2CAB00),
                                   fontStyle: FontStyle.normal
                                 ),
                               ),
@@ -164,7 +164,7 @@ class DetailScreen extends StatelessWidget{
                       Padding(
                         padding: const EdgeInsets.only(left: 10),
                         child: Container(
-                            width: 340,
+                            width: 370,
                             height: MediaQuery.of(context).size.height,
 
                             child: GridView.builder(gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
@@ -283,14 +283,14 @@ class DetailScreen extends StatelessWidget{
                           // See More button
                           Container(
                             width: double.infinity,
-                            height: 80,
+                            height: 50,
                             child: ElevatedButton(
                               style: ElevatedButton.styleFrom(
-                                backgroundColor: Colors.green,
+                                backgroundColor: Color(0xff2CAB00),
                                 foregroundColor: Colors.white,
                                 elevation: 25,
                                 shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(20),
+                                  borderRadius: BorderRadius.circular(30),
                                 ),
                               ),
                               onPressed: () {},
