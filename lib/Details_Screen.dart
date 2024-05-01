@@ -162,10 +162,10 @@ class DetailScreen extends StatelessWidget{
                       ),
 
                       Padding(
-                        padding: const EdgeInsets.only(left: 10),
+                        padding: const EdgeInsets.only(left: 10, right: 9),
                         child: Container(
                             width: 370,
-                            height: MediaQuery.of(context).size.height,
+                            height: (MediaQuery.of(context).size.height)*.58,
 
                             child: GridView.builder(gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                               crossAxisCount: 2,

@@ -121,7 +121,7 @@ class Home extends StatelessWidget{
                               alignment: Alignment.bottomLeft,
                               margin: EdgeInsets.only(bottom: 19, left: 23),
                               child: Text(details_Image[index].title, style:TextStyle(
-                                fontSize: 20,
+                                  fontSize: 20,
                                   fontStyle: FontStyle.normal,
                                   fontWeight: FontWeight.w500,
                                   color: Colors.white
